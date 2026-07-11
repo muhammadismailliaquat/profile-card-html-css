@@ -1,0 +1,136 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Card */
+.card {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 36px 24px;
+    margin: 60px auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    transition: .3s;
+}
+
+/* Card Hover */
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Profile Image */
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    transition: .3s;
+}
+
+/* Image Hover */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Name */
+.name {
+    font-size: 22px;
+    color: #1a1a2e;
+    margin-bottom: 6px;
+}
+
+/* Designation */
+.designation {
+    font-size: 14px;
+    color: #1565c0;
+    margin-bottom: 14px;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills {
+    margin-bottom: 24px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #e3f2fd;
+    color: #1565c0;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+/* Buttons */
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #1565c0;
+    color: #ffffff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #0d47a1;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #1565c0;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: 2px solid #1565c0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-secondary:hover {
+    background-color: #1565c0;
+    color: #ffffff;
+}
+
+/* Social Links */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: #888888;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+.social a:hover {
+    color: #1565c0;
+}
+
+/* Footer */
+footer {
+    color: #aaaaaa;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
